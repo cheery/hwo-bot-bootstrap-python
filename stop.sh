@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 while read line
 do
     kill -9 $line > /dev/null 2>&1;
